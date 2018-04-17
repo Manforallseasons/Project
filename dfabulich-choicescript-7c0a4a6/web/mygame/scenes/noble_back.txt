@@ -1,0 +1,214 @@
+My family, and my parents in particular, treasured their blood as though it were made of gold. Indeed, 
+it seems likely that they honestly believed that it [i]was[/i] made of gold: just another way 
+they distinguised themselves from the 'commoners'. Even in those days, the way they acted would've seemed 
+dated and elitist. What's more, my family had always been a minor one at best, not to mention, most of their 
+fortune had dried up, leaving only a pittance compared to their long-forgotten wealth. More than most 
+Britons, of course, but nowhere near the great fortunes that the rest of the nobility had thus-far accumulated. 
+*line_break
+It was into this family of contradictions that I was born in the year of 1849. After much discussion, my 
+parents decided to name me, 
+*choice
+	#William
+		*set FName "William"
+		*goto lastname
+	#James
+		*set FName "James"
+		*goto lastname
+	#Charles
+		*set FName "Charles"
+		*goto lastname
+	#Thomas
+		*set FName "Thomas"
+		*goto lastname
+	#Haytham
+		*set FName "Haytham"
+		*goto lastname
+	#Christopher
+		*set FName "Christopher"
+		*goto lastname
+	#Lysander
+		*set FName "Lysander"
+		*goto lastname
+	#George
+		*set FName "George"
+		*goto lastname
+*label lastname
+And my surname,
+*choice
+	#Kenway
+		*set LName "Kenway"
+		*goto education
+	#Seaton
+		*set LName "Seaton"
+		*goto education
+	#Delafontaine
+		*set LName "Delafontaine"
+		*goto education
+	#Ashbridge
+		*set LName "Ashbridge"
+		*goto education
+	#Montcroix
+		*set LName "Montcroix"
+		*goto education
+	#Sherington
+		*set LName "Sherington"
+		*goto education
+	#Lockwood
+		*set LName "Lockwood"
+		*goto education
+	#Theodore
+		*set LName "Thedore"
+		*goto education
+		
+*label education
+As I grew older, my parents began to put consideration to my education. While we lacked the vast estates and property 
+typically associated with the Upper-Class, my parents were more than happy to hire a private tutor for me. An elderly 
+man, my tutor was an intelligent, capable pedagoge, with whom I have many a fond memory. While he was quite liberal in teaching me 
+everything he felt was necessary for a young man such as myself but in particular, I excelled in the field of 
+*fake_choice
+	#Writing and Rhetoric. Had I not found success in politics, I might just as well have become a writer. 
+		*set Edu_Rhetoric true
+		*set Education "Rhetoric"
+		*set Lang_Greek true
+		My tutor was, of course, always happy to critique my writings and arguments, finding holes where I hadn't seen them 
+		and perfecting my ability to make a persuasive case for nealy anything. 
+	#History. In particular, the many conquests and victories of the Empire and her subjects. 
+		*set Edu_Military true
+		*set Education "History"
+		Alas, I never was privy to any great military conflict, but my experience in such matters, even in purely theoretical 
+		gave my voice on military matters some extra weight, though perhaps not as much as any true veteran. 
+	#the Classics. I read the works of the ancients philosophers with abandon: Plato, Aristotle, even the Hindu texts.
+		*set Edu_Classics true
+		*set Education "Classical"
+		*set Lang_Greek true
+		*set Lang_Latin true
+		*set Lang_Hindi true
+		I had truly become something of a jack-of-all-trades, though I lacked any hard experience in any one field. 
+		I could converse with a passing layman on nearly any issue, but never with an expert. 
+	#Science and Mathematics. Perhaps not the education typically associated with a future politician. 
+		*set Edu_Science true
+		*set Education "Scientific"
+		*set Lang_Latin true
+		Indeed, my decision to political ambition was considered a confusing one to many of my peers, thought not a 
+		poor one. Whensoever the parliamentary discussion turned to public health or medicine, I was more than happy to 
+		offer up my expertise. 
+	#Language and Anthropology. I would've made a fine diplomat, if I hadn't become an MP. 
+		*set Edu_Diplomacy true
+		*set Education "Diplomatic"
+		*set Lang_Russian true
+		*set Lang_Italian true
+		*set Lang_German true
+		At the tender age of 15, I spoke already five languages, and even now, I hope to increase that number. Diplomacy and trade. is the 
+		cornerstone of all nations. 
+*line_break
+At the age of 21, I had become a capable young man, and my education was mostly complete. I bid a fond farwell to my tutor during those months, and 
+hoped to begin the process of looking for respectable work. With the economy in the state is was, however, it seemed far more difficult than it 
+ought. To complicate matters, it seemed my father had become absolutely insistant that I participate in a 'grand tour', as he had in his younger days. 
+*line_break
+This was, of course, a terrible idea. The whole concept of a 'Grand Tour' had fallen out of fashion nearly 30 years ago. The advent of steam travel 
+had made the whole journey obselete, and with rising tensions between the North German Confederation and the nascent French Empire, a romp 
+through the continent was, at best, ill-advised. But father was insistent: he had gone through such a journey in his youth, and by God, so 
+would I, logic be damned.
+*line_break
+And so it was, on a warm June morning, that I bought two tickets to London, carrying only some light luggage, and from there, found passage on a 
+steamship to Amsterdam. The voyage was rather peacful, I will admit as much, and I made the acquaintance of another Englishman, a Jack Wright, 
+the son of some London publisher. Apparently, he was visiting Amsterdam for a medical conference of sorts. We made talk of our personal lives, 
+and of the many political topics of the day. While we disagreed on nearly every topic, it was still a pleasure to converse with him. So much so 
+that, we agreed, since we would both be taking leave of Amsterdam in early September, it would benefit the both of us to share a hotel room, 
+saving us both some much-needed Guilders. 
+*page_break The Venice of the North
+Landing, as we did, in those warm late-June days, I found an air of worry hung over the city as though it were a cloud of miasma. The worsening political 
+situation between the French and the Germans meant that, each day, war between the two countries seemed more and more inevitable, and with the Netherlands 
+caught in the middle, it did not avail the citizens to be so unsure of what the coming months would entail. 
+*line_break
+A grand tour was meant to be a definitive moment in a young man's life: or at least, it was when it was common, in that bygone-era before the advent of 
+locomotion. But I saw only worry, fear, and the constant threat of war in that short time I spent on the continent. There was only fear and loathing in 
+Amsterdam. 
+*line_break
+But for all the threat of war, I did find Amsterdam to be a wholly welcoming place. The city had centuries of history and culture to explore, and for 
+all the unease that hung over the city, mueseums and galleries stayed open, and musicians kept a-playing. 
+*if (Lang_German)
+	Though I did not speak Dutch, I was able to get around with my expertise in the German language. I had the pleasure of viewing some of the finest monuments 
+	and locales the city had to offer, and the cafe's and restauraunts available were far superior to anything in Britain.
+	*goto city
+*else
+	As I did not speak Dutch or German, I was only able to make do with those particular persons who spoke English or French, who were far and few between. Mercifully, 
+	Jack was far more than willing to help me in getting around, and I had the pleasure to partake in some of the finest locales of Amsterdam, and the cafe's and restauraunts 
+	available were second to none.
+	*goto city
+*label city
+*line_break
+It was in one of these cafe's, on a warm July morning, that it seemed that war loomed largest over the continent. Speaking, as I had been, with Jack, the conversation 
+turned to the conflict between the French and the Germans. 
+*line_break
+*line_break
+I hope the reader will forgive me for my brief digression into the politics of that particular period, as, while they were not of grevious concern to many English at 
+the time, the event was deeply influential to my own political growth. I would not, I think, have become the man that I did without this particular conflict, and 
+my relation to it.
+*page_break The Franco-Prussian War
+*image bataillon.jpg center 
+Clauswitz, that most famous of military men, famously wrote that "War is the continuation of politics by other means". This phrase has become famous, in 
+many ways, as the pure summation of much of Clauswitz's work. Too often, it is used as a glib phrase: humerous, but ultimately meaningless. In reality, however, 
+I would present the notion that the Franco-Prussian War was the truest proof of Clauswitz's claim than ever could be seen.
+*line_break
+In truth, the Franco-Prussian War was only a pretense for Bismarck. War was by no means inevitable, even at this late hour, but was an absolute necessity for 
+Bismarck's greater plans. It was no secret that the Prussians hoped for a unified Germany. Ever since the revolutions of 1848, the idea of German unification had 
+been thrown about with abandon, much to the consternation of the old conservative guard of the various nations that made up the weak confederation of German states. 
+But, as time went on, Unification became a much more popular prospect even in the most conservative circles.
+*line_break
+With the defeat of Austria in the Austro-Prussian war, Bismarck had taken the opprotunity to annex the various Northern German states, reforming what had briefly been 
+the Confederation of the Rhine, naming it the North German Confederation. With Prussia as the major power in the region, the unification of the German Empire was 
+nearly at hand, but the Prussian's could not merely annex the Souther German states of Baden, Bavaria, Hesse-Darmstadt, et al. He needed some pretex to encourage the 
+southern states to join the Confederation, and form a unified German Empire. A pretext such as, for example, a French invasion.
+*line_break
+Thus, came the Franco-Prussian war. The whole affair was very carefully created by Bismarck. During the candidacy for the throne of Spain, a particular noble, specifically 
+Leopold of Hohenzollern-Sigmaringen, had become quite a popular candidate. The problem, of course, was that Leopld was [i]very[/i] Prussian, and France, fearing encirclement 
+by Prussian-allied forces, levied diplomatic pressure to remove him as a candidate. Then, in a rather famous move, sent a diplomat to the North German Confederation, demanding 
+that the Prussian's never-again support a Hohenzollern claimant to the throne of Spain. Bismarck refused to aquiesce to these demands, but did so in a typically polite fashion. 
+In German, anyways. When the refusal was translated to French, Bismarck took pains to be as insulting as possible, and when the French diplomat returned to Paris, the Parisian 
+newspaper, Havas, interpreted all of Bismarck's actions as hostile and inflamatory, exactly as Bismarck had hoped.
+*page_break
+With the promise of War, and German unification, now at hand, it was only a matter of time before both nations mobilized, and the continent would once again be at war. 
+In conversing these topics with Jack, he eventually did ask my opinion on the matter, and I ansered as honestly as  I could.
+*choice
+	#I wholeheartedly supported the German desire for unification. With the fall of the French Monarchy, and the waning power of the Queen, the old regime of Europe's monarchies would be no more. German Unification under the Kaiser was the best path to prevent that.
+		*set monarchist true
+		*set tory_support tory_support + 10
+		*set liberal_support liberal_support - 5
+		"Consider the French, for example," I began. "Their great Republican experiment began with a revolution, and ended with an Empire. Then it became a monarchy once again, 
+		yet another Republic, and then the Empire it is now. Without the guiding hand of the Bourbon's, France is destined to stay forever in a cycle of revolution 
+		and violence. When the Germans win this war, and I have no doubt they will, all Germans will be united under a single banner, under the direction of Kaiser Wilhelm, 
+		and we will at least see a return to the old regime and thus, stability."
+		*goto argument
+	#I voiced my support for the French. Compunctions against Napolean III aside, the French Empire was the surest guarenteer of the rights of men, far more than the Germans at least. The French Republican tradition could never be extinguished.
+		*set republican true
+		*set liberal_support liberal_support + 10
+		"I may not like the man or his government, but the French Empire under Napolean III [i]must[/i] become the steward of the future. Without the rights guarenteed by the French 
+		governemnt, where would the people of France be? Had it not been for the overthrow of the Ancien Regime, where would all of Europe stand? In those dark, Feudal 
+		ages before the enlightenment? No, I believe that the survival of French hegemony on the continent, as distasteful as it is to me as an Englishman, must not be 
+		so quickly overthrown."
+		*goto argument
+	#I stated that I did not particularily care for either state. The German Working class had been duped into supporting it, believing it was an honest bid for German independence, despite the capitalists and the monarchists true intentions.
+		*set socialist true
+		*set tory_support tory_support - 5
+		*set liberal_support liberal_support + 5
+		"The war that looms so near is nothing more than the petty squabbles between different classes of Bourgoise. The French Capitalists, and the German Absolutists, fight 
+		one another for continental hegemony, but the working class pays the price. The poorest of nations, the wretched of the earth, always pays the deepest price 
+		for the battles of the bourgoise, and until they rise up and declare a working-class republic, the Continent, and indeed the world, will never know peace."
+		*goto argument
+*label argument
+*line_break
+I finished my explanation, and Jack seemed to mull over it for a brief moment. "Well," he began, conversationally. "I can't say I agree with you, but I will admit this much: 
+You argue your points well, and you're deeply passionate about them." He paused for a brief moment, as if mulling something over in his head. "Listen, I know this 
+might sound quite irregular, but have you ever considered becoming a journalist? My father, he's a news publisher in London, I'm sure he'd be happy to have someone of your sort 
+working for him."
+*line_break
+It was an astoundingly gracious offer. I had already been struggling to find employment back in England, and I had feared that this 'Grand Tour' would only hurt my prospects, 
+not help them, but Jack, generous as he was, had alleviated all those fears. He promised me that he would put a good word for me with his father, and encourage him to hire me 
+when I came to visit, all of this on the assumption that I would be returning to England much later, long after my trip, but as fate would have it, we ended up returning on the same boat 
+together.
+*line_break
+War broke out in Germany on the 19th of July, 1870. I left for England, along with my new companion, the very next day. I may have lost the chance to see all of Europe, but I had 
+something far more important now: work.
+*page_break The Old Smoke
+*goto_scene election

@@ -1,0 +1,201 @@
+It may, in truth, surprise many readers that I was not, in fact, the first MP of Indian descent, though 
+I do hold the perhaps technical honor being the first Indian MP to take his seat in Parliament. However, before me, 
+one man, a certain David Ochterlony Dyce Sombre, had originally been elected to the House of Commons as far back as 1841, but 
+was barred from sitting due to accusations of bribery. 
+*line_break
+But for all that was strange about my parliament days, there was much about my youth that was exceedingly normal. My father, 
+a member of the Honorable East India Association, was far-and-away more wealthy than many other Indians at the period: 
+he had taken full advantage of the European occupations, and enthusiastically traded with just about every European that 
+crossed his path. Quick to adapt to new situations, my father quickly amassed a not-insubstantial wealth. Despite his 
+enthusiasm for his work, he was always a present figure in my life.
+*line_break
+My parents were nothing but kind and doting, and when I was born in 1844, they named me, 
+*choice
+	#Mishri
+		*set FName "Mishri"
+		*goto lastName
+	#Sayana
+		*set FName "Sayana"
+		*goto lastName
+	#Sooraj
+		*set FName "Sooraj"
+		*goto lastName
+	#Aman
+		*set FName "Aman"
+		*goto lastName
+	#Acayra
+		*set FName "Acayra"
+		*goto lastName
+	#Shudraka
+		*set FName "Shudraka"
+		*goto lastName
+	#Pandu
+		*set FName "Pandu"
+		*goto lastName
+	#Jeet
+		*set FName "Jeet"
+		*goto lastName
+		
+*label lastName
+And my surname, 
+*choice
+	#Devdhar
+		*set LName "Devdhar"
+		*goto education
+	#Singh
+		*set LName "Singh"
+		*goto education
+	#Chopade
+		*set LName "Chopade"
+		*goto education
+	#Parekh
+		*set LName "Parekh"
+		*goto education
+	#Dheer
+		*set LName "Dheer"
+		*goto education
+	#Seth
+		*set LName "Seth"
+		*goto education
+	#Mallaya
+		*set LName "Mallaya"
+		*goto education
+	#Kashyap
+		*set LName "Kashyap"
+		*goto education
+*label education
+Growing up, as I did, so far from Britannia's shores, it might surprise any number of less-travelled types that I had, in fact, recieved a perfectly adequate eduction. 
+Although I would not necissarily blame them for not knowing, it is a fact that, as a result of the famous 'Wood's Dispatch', the University of Mumbai, along with a 
+vast number of other schools, were founded in India in 1854 and the following years. While the price of attendence could be prohibitively expensive, I was perfectly capable of 
+attending due to my father's not-insignifigant wealth. 
+*line_break
+My university days were not, as one might think, of particular note. The school was perfectly adequate as an educational institution, and not particularily different from 
+university elsewhere in Europe: this was the intent, after all. The hope of the Wood's Dispatch was to establish schools to teach English, and in turn, ensure the security of 
+British rule in the region through a complex system of beauracratic power. 
+*line_break
+My eduction was, as I mentioned, quite typical, though I found in my university years that I excelled in the field of, 
+*fake_choice
+	#Rhetoric and Writing. The Faculty of Arts had a thorough programme of literature and a college of debate, which I was more than happy to partake in.
+		*set Edu_Rhetoric true
+		*set Education "Rhetorical"
+		I was a perfectly capable student, finding that I was more able than most to make arguments in favor of certain literary interpretations. I became a 
+		quick student of Speech and the lost art of Rhetoric and Oratory, a fact that was more than useful in my time as MP.
+	#History. In particular, the history of men like Ceasar, Alexander, and Nelson: the finest military minds of the ages.
+		*set Edu_Military true
+		*set Education "Historical"
+		While I never was given the chance to join the military like my younger self would've liked, I still found some solace in that 
+		many of my peers, save for those with practical experience, acknowledged my (purely theoretical) expertise. 
+	#the Humanities. I read every bit of literature I could: Enlightenment Philosophy, the Stoics, even the ancient Hindu Texts. 
+		*set Edu_Classics true
+		*set Education "Classical"
+		*set Lang_Latin true
+		*set Lang_Greek true
+		I was a voracious reader, and I devoured any book I could get my hand on, regardless of how interesting it actually was. Of course, this 
+		often meant that my education was not quite as decisive as it might've been. I was a jack-of-all-trades, and a master of none.
+	#Medicine. I had hoped to become a doctor after graduation, and I took full use of Mumbai's Faculty of Medicine. 
+		*set Edu_Science true
+		*set Education "Medical"
+		*set Lang_Latin true
+		Not, perhaps, the most immediately obvious educational choice for a politician, but it had it's uses. Whensoever the topic turned to public health, 
+		even the most reactionary MPs bowed to my superior expertise in those matters.
+	#Language and Culture. I hoped to find work in Europe eventually, and if I ever hoped to succeed on the continent, I'd need to speak the languages there.
+		*set Edu_Diplomacy true
+		*set Education "Linguistic"
+		*set Lang_French true
+		*set Lang_Russian true
+		*set Lang_Italian true
+		*set Lang_German true
+		By the time I graduated, I spoke 6 languages, and not to mention that I had become something of an expert on the topic of 
+		Sanskrit writings. It was never a particularily important part of my time as MP, but I always managed to work it into conversation somehow.
+*line_break
+My education passed with little fanfare, and I graduated in 1866. Immediately, like many educated Indians, I found work with in the Colonial Beauracracy. 
+Working as a low-level customs officer in Mumbai was respectable, if a bit unambitious. I had missed the Opium wars by a few years, and so my job 
+scarcely involved any real customs trafficking. Besides that, whenever the chance that I might find some acutal illegal cargo or uncover 
+some smuggling operation actually showed itself, more senior officers were more than happy to 'relieve' me of such work, that they might take the credit.
+*line_break
+And so, I spent most of my time in the service of the East India Company reading books and papers to pan out those brief periods of time when I did have 
+some work. Ironically, it was one of those brief periods of work that I did happen upon that most peculiar of events that would radically change the 
+trajectory of my life.
+*page_break
+I had recieved message of an English ship that had docked, and the port authority had declared one man's goods illegal for exporting without a license.
+The issue was not a particularily important one, as it turned out. The man, an English Physician by the name of Jack Wright, had been carrying alcohol on his person: 
+a necessary tool of a doctor of course, and one of the port guards had misunderstood the specifics of the tarrif: as the bottle was personal, and not meant for consumption, 
+it was not necessary for Mr. Wright to pay the extant tarrif on spirits. A simple mistake, and the man's goods were returned to him in the span of a few hours after confiscation. 
+*line_break
+Mr. Wright turned out to be a perfectly amiable fellow. While he was waiting for the necessary paperwork to be processed, we struck up a conversation on some topic that I have 
+now forgotten, but it can assure you, dear reader, that it was a wonderfully intense one. But in time, his materials came back, and we bid each other adieu, each thinking that 
+we would not see one another again.
+*line_break
+But, as fate would have it, the very next day, I ran into Mr. Wright again on the streets. Finding that neither of us had much to do, we took our leave of the streets and 
+availed ourself of a nearby food shop. There was a small number of tables and chairs located outside, and the place sold foodstuffs that would've been familiar to Europeans: 
+the whole restauraunt had become successful from Europeans hoping for a small taste of home.
+*line_break
+Jack, as it turned out, was a perfectly amiable man, though somewhat ignorant of life in India. Apparently, he was here on a visit to my Alma matter, the University of 
+Mumbai, in order to take stock of the medical department: mostly out of professional curiosity, though I doubted that was the whole story: A voyage all the way to 
+India from London was not something done out of mere whim, but I decided not to press the issue.
+*line_break
+The two of us spoke for quite some time about a variety of topics. While we had a seemingly endless font of discussions, it was with some humor that we found 
+that we disagreed on nearly all political topics of the day. Despite this, it did not stop us from discussing these things, and the spirit of friendly debate was 
+one that prevailed.
+*line_break
+While we did eventually need to take leave of one another, we agreed to meet again, and our converstations quickly became a normal part of daily life for the month that 
+Jack visited. We discussed nearly everything: religion, philosophy, and, of course, politics. On one particular afternoon, the topic of Duleep Singh, a now-exiled 
+Maharaja. 
+*line_break
+I hope that the reader will forgive me for my digression here: the deposed Maharaja was but a footnote in the grander narrative of British politics at the time, and 
+so dedicating so much time to one topic might seem strange. But should like to state that, while perhaps he was not as important as I this reading might imply, 
+that he was absolutely fundamental in the formation of my own political person, in some way or another. Indeed, without the man, or the topics surrounding him, 
+I doubt that I may have become the man that I did.
+*page_break The Last Maharaja
+*image singh.jpg center
+Duleep Singh, born in 1838, rose to the throne of Punjab in 1843. The political instability in Punjab, as well as the Anglo-Sikh war in 1849, meant that 
+the young Maharaja was deposed at the tender age of 10. The young man spent some time travelling between Lahore and other Indian states, converting to the 
+church of England in the meantime. In the year of 1855, when he found passage to London, and was thrown into the royal court.
+*line_break
+As it turns out, the court was abosolutely wild about him: even Queen Victoria herself took a keen liking to him, even inviting him to stay with the royal family 
+at Osborne. All in all, the English court and nobility found him fascinating and exotic, and the English people followed suit, though just as many in both 
+cases yet held reactionary beliefs about Indians in general.
+*line_break
+Despite these obvious setbacks, however, the man had managed to endeer himself to both the aristoracy and the journalistic classes in England, and 
+many Indians living in England proper, not to mention the commonwealth, saw him as an inspirational figure. While it seems that nothing 
+ever did truly come out of it, many felt that having someone so close to the Queen who was sympathetic to the plights of the natives in India 
+would signal a true reform in their treatment.
+*line_break
+In discussing the man, and his sudden popularity in England, Jack endeavored to ask my thoughts on the man, and I answered.
+*fake_choice
+	#I admitted that I found something admirable in the man: an Indian mingling amongst the European aristocracy was aspirational.
+		*set monarchist true
+		*set tory_support tory_support + 10
+		"After all," I began. "It is known that the true power always lies with the Monarch, as it should. If the Maharaja has 
+		the ear of the Queen, how can that be anything but good for India?"
+	#I stated that, while impressive, it was ultimately meaningless. The only body that could, or would, help those in India was parliament. 
+		*set republican true
+		*set liberal_support liberal_support + 10
+		"Truth be told, I don't believe it will have any true effect in the long run," I began. "The material condition of Indians will 
+		only be improved when Indians take the representation that is guarenteed to all subjects of the British Empire."
+	#I scoffed. Neither the Queen nor the Maharaja cared one whit about their subjects. The only way forward for Indians was independence.
+		*set socialist true
+		*set liberal_support liberal_support + 5
+		*set home_rule_support home_rule_support + 10
+		*set tory_support tory_support - 10
+		"All this talk of Queens and Maharajas, but who cares for the poor Indian, begging on the street, or the begging Englishman for that matter? 
+		Not the Monarchs, not Parliament, no. Only a movement made up of and for the poor and working-class will ever improve their material conditions."
+*line_break
+Jack nodded his head, as if in contemplation of my point. "Well, ${FName}, I won't say I agree with you, as I don't, but I must admit that you make 
+a compelling argument, and you present it well," he said. The topic was dropped, and that was that.
+*line_break
+Or, at least it was, until some days later, when Jack and I met again, as had become our habit. He had clearly been mulling over something, and with a 
+degree of hesitence, he begain to ask, "Listen, ${FName}, I have spent these past few days wondering. You have made mention of your discontent with 
+work as a customs officer, and I believe I know a position where you might be more comfortable," he began. "My father, he runs a small publishing 
+company in London. He runs a variety of different pieces, many of which cater to a wide, diffused population in London. Would you perhaps, 
+consider working as a journalist? I know that this is a strange thing to ask so suddenly, but I was so taken by your passion and knowledge of 
+political issues that I felt that I must ask."
+*line_break
+I considered Jack's offer for a long moment. It was, of course, an unusual offer, though far from bizzare. I did admit that work in the custom's 
+office had lead seemingly nowhere, and I expressed my desire to find more profitable, and satisfying, work. Not to mention, my father would see 
+work as a journalist in London something deeply prestigious. The next day, finding Jack again, I agreed to his offer, and he was ecstatic. 
+*line_break
+We made plans to leave Bombay in a weeks time, and, after saying my goodbyes to my loved ones, I boarded the steam carrier to London. My 
+aspirations had lead me to the heart of the Empire, and, political feelings aside, I hoped to see it in all it's glory.
+*page_break The Old Smoke
+*goto_scene election

@@ -1,0 +1,32 @@
+I was born...
+*choice
+	#in Weybridge, Surry, the site of the famous St. George's Hill. My great-great-grandfather was a Digger, my grandfather was a Union man, and my father was a socialist. Radicalism runs in my veins.
+		*set liberal_support liberal_support + 10
+		*set tory_support tory_support - 10
+		*set Digger true
+		*comment Paris Commune
+		*goto_scene digger_back
+	#to a cadet branch of a noble family. I can trace my lineage to the Norman Conquest, though I lack any lands or holdings of my own.
+		*set liberal_support liberal_support - 10
+		*set home_rule_support home_rule_support -10
+		*set tory_support tory_support + 10
+		*set Noble true
+		*set Lang_French true
+		*comment Grand Tour
+		*goto_scene noble_back
+	#in County Cork, to two loving Catholic parents. 
+		*set Home_Rule_Support Home_Rule_Support + 10
+		*set tory_support tory_support - 10
+		*set Catholic true
+		*set Lang_Irish true
+		*set Irish true
+		*comment Irish Famine/Fenian Rising
+		*goto_scene irish_back
+	#in Bombay. I was educated in some of the finest schools in India, and my father was a capable businessman, a member of the East India Association.
+		*set tory_support tory_support - 20
+		*set liberal_support liberal_support + 5
+		*set home_rule_support home_rule_support + 5
+		*set Indian true
+		*set Lang_Hindi true
+		*comment Indian Rebellion
+		*goto_scene indian_back

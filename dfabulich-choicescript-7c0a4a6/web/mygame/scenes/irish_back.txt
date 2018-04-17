@@ -1,0 +1,179 @@
+I was born in 1845. The more elderly, or at the very least, the more educated among my readers, will likely remember the signifigance of that year 
+in the History of Ireland. Indeed, I was born at the very begining of the Great Famine. The second of two sons, I never knew my brother. When I was 
+but a wee lad, my parents gave him some money to sail off to America, in the hopes that he might make his own fortune, and in turn, bring some of 
+that fortune back home.
+*line_break
+Alas, it was not to be. My brother wrote to my parents when he could, mentioning that he had found work as a longshoreman in New York, and that 
+he had even found steady income. It was a brief few years of hope, until my parents got word that he had died in a shipping accident. While my 
+memory of such time is not as defined as it would later become, I still cannot begin to describe the grief that they, and I, knew at his loss.
+*line_break
+The great irony of the period, for all of us, was that my father found his first bout of financial success as a direct result of the Famine. 
+Aside from the loss of my brother, my father's skill as a craftsman, though only of little mention before the famine, had become a deeply coveted 
+skill in the now-depopulated County Cork. While we would never become rich enough to own any great land or estate, my father's property was now 
+valued at over 40 Shillings, meaning that he, like a few select others in Ireland, now had the right to vote. To no great surprise, he voted 
+Whig quite consistantly: He had seen no benefit from Conservative rule either during the famine or after. He was exactly the sort of man the 
+Conservatives would be all to disenfranchise. 
+*page_break
+In any event, my birth, while certainly a source of great joy to my parents, did nothing to make their lives easier. In the summer of 1845, 
+I was Christend,
+*choice
+	#Patrick
+		*set FName "Patrick"
+		*goto lastname
+	#Connor
+		*set FName "Connor"
+		*goto lastname
+	#Finnegan
+		*set FName "Finnegan"
+		*goto lastname
+	#Thomas
+		*set FName "Thomas"
+		*goto lastname
+	#Nathan
+		*set FName "Nathan"
+		*goto lastname
+	#Seamus
+		*set FName "Seamus"
+		*goto lastname
+	#Eamond
+		*set FName "Eamond"
+		*goto lastname
+	#Casey
+		*set FName "Casey"
+		*goto lastname
+*label lastname
+And my surname,
+*choice
+	#Cullen
+		*set LName "Cullen"
+		*goto education
+	#McDonnal
+		*set LName "McDonnal"
+		*goto education
+	#Malone
+		*set LName "Malone"
+		*goto education
+	#McShane
+		*set LName "McShane"
+		*goto education
+	#O'Dowd
+		*set LName "O'Dowd"
+		*goto education
+	#Kelly
+		*set LName "Kelly"
+		*goto education
+	#Conchobhar
+		*set LName "Conchobhar"
+		*goto education
+	#Mahoney
+		*set LName "Mahoney"
+		*goto education
+		
+*label education 
+In any event, my youth was, I think, quite typical for the period. I was never able to attend university: the cost of even Trinity for a family 
+like my father's, but I still recieved a very fine education for the local schools, and the village priest as well. My education, while 
+perhaps not as prestigious as one of Cambridge or Oxford, was no less instrumental or practical. While I recieved a general education, I excelled 
+particularily well at, 
+*fake_choice
+	#Reading and Writing. I always did have a head for words, I suppose.
+		*set Edu_Rhetoric true
+		*set Education "Rhetorical"
+		Had I not eventually gone on to become a politician, I have no doubt that I would've ended up as some richer man's secretary, or his notary, 
+		or some other administrative position.
+	#History. Especially the battles of Fionn McCool and the Heros of Irish legend.
+		*set Edu_Military true
+		*set Education "Historical"
+		Alas, military history never did become part of the school cirriculum, though I did expand my knowledge by watching the local soldiers when I 
+		was much younger, and even served in the army for a brief stint. 
+	#Philosophy and Theology. I read whatever books I could get my hands on: Berkley, Hutchison, and Boyle all. 
+		*set Edu_Classics true
+		*set Education "Classical"
+		*set Lang_Latin true
+		*set Lang_Greek true
+		My peers considered me something of a 'renniassance man', with my vast knowledge of a variety of topics. I was, 
+		as they say, a jack-of-all-trades, but a master of none.
+	#Mathematics and Natural Philosophy. I might've gone on to be a doctor, had I not become a politician.
+		*set Edu_Science true
+		*set Education "Scientific"
+		*set Lang_Latin true
+		My expertise was not, of course, always relevant to the political discussions of the time, but whenever the topic turned to Public Health 
+		or Quantitative Administration, I was always happy to lend my skills.
+	#Culture and Language. I grew up speaking both English and the Irish of our ancestry, and I took the time to learn every language I could, hoping it might get me somwhere in the future.
+		*set Edu_Diplomacy true
+		*set Education "Diplomatic"
+		*set Lang_French true
+		*set Lang_Russian true
+		*set Lang_Italian true
+		*set Lang_German true
+		By the time I was twenty, I was already something of a polyglot, speaking 6 languages fluently, much to the surprise of many of my peers.
+*line_break
+As I grew older, I began to work in my father's shop. With the rise in his wealth, he had opened up a small, but successful business, one that operated smoothly in the 
+wild fluctuations of the Cork market. While I was always happy to work with him, as I got older, I began to develop that particular strain of wanderlust that so often 
+infects young men. I desired to see the continent, or London at the least, not wanting Cork, lovely though it was, to be the whole of my existence. I read newpapers 
+daily, hoping to catch some glimpse outside the confines of my provincial Irish world. 
+*page_break The Fenian Riots
+In a strange sense, my wish was granted. Not in an unpleasant way, but in a surprising one, at least. In the waning days of the Winter of 1867, I had been working my 
+father's shop diligently, when a young Englishman entered, hoping to be serviced. I attended to his request, and, finding that business had been slow that day, struck 
+up a conversation with him. He was a polite man, the pinnacle of English culture by the name of Jack Wright. His father was a news publisher in London, and he himself 
+had come to Cork to visit an old friend, only to find, much to his dismay, that the man had died some weeks previous. He had some time before he was scheduled to depart again, 
+and found himself quite bored in the interim. Finding that I myself had become quite bored with the lack of work, offered to keep his company during his time here. 
+*line_break
+*image fenian.png center
+We became fast friends, helped in part by Jack's general amiability, though we found with some comedy that we differed on every political issue of the day. 
+We spent as much time talking about politics as we did daily life, and the spirit of friendly debate was one that defined our relationship. 
+*line_break
+On one particularily warm March morning, the topic of conversation had somehow switched to that of Irish Republicanism. And I hope that the reader will forgive me for this brief tangent:
+The Fenian Riots were, all-in-all, not the most lasting of political topics. Many older readers might remember them, but I feel that many young ones will have forgotten it. And it is with 
+hesitancy that I begin my digression about these riots, unimportant as they may seem now, as they were instrumental in the formation of my own political opinions. Had it not been for 
+these events, I might never have become the man I did, and so I feel that to not include them would be a disservice to the audience.
+*page_break The Fenians
+*image fenian.png center
+It is no great secret that many Irish were not pleased with life under the British yoke. Even in America, Irishmen held on to a belief in a national unity beyond even 
+physical location. This dissatisfaction with British rule was, of course, nothing new. The Young Irelander Rebellion, in 1848, while ultimately crushed, was but one of 
+many expressions of a desire for Irish independence. 
+*line_break
+Thus, only the most ignorant, or perhaps pigheadded persons, could have possibly been surprised by the Fenian revolt. Although our home and business was spared from 
+the fighting (such that we were not even aware of the event until the day after), the event still sent a deep shockwave through all rungs of Irish society. 
+*line_break
+On March 5th, 1867, batallions, formed by the Fenian Union and the Irish Republican Brotherhood, rose up in opposition to the Empire. Not merely in Ireland, but 
+throughout all of the Empire: from Dublin to Cork to Canada. Though they were ultimately defeated by the British and Canadian armies, and the ringleaders were 
+very quickly arrested. Despite the rising ultimately being a failure, however, the British government, in time did eventually acquiese to certain Irish demands:
+in particular the disestablishment of the Anglican Church as a concession to Irish unrest, though that fact was not known to us in March, only some days after the rebellion.
+*line_break
+Asking my opinion on the matter, I replied to Jack that, 
+*fake_choice
+	#I found the Fenians to be utterly distasteful, and what's more, disrespectful to the rightful rule of Her Majesty.
+		*set monarchist true
+		*set tory_support tory_support + 10
+		*set home_rule_support home_rule_support - 10
+		*set liberal_support liberal_support - 5
+		As I said this, Jack looked at me with a look of mixed bemusement and bewilderment. "I'm afraid I never took you for a Monarchist," he said, rather 
+		glibly. 
+	#I felt that the Fenians, while they had legitimate greviances that deserved addressing, were ultimately too radical for any upstanding republican to support.
+		*set republican true
+		*set tory_support tory_support + 5
+		*set liberal_support liberal_support + 5
+		*set home_rule_support home_rule_support + 5
+		As I said this, Jack nodded his head, as if considering what I had to say for a few brief moments before speaking.
+	#I voiced my full and total support for the Fenians. Too long had the Irish the English and their 'civilizing' capitalism. The formation of an independant Ireland was the only true way forwards.
+		*set socialist true
+		*set tory_support tory_support - 5
+		*set home_rule_support home_rule_support + 20
+		Jacks eyes went wide with mild surprise, though he did look almost bemused. Perhaps he hadn't expected me to be so radical in my opinions?
+*line_break
+"Well, ${FName}," he started, "I must say I don't fully agree with you. But you argue your points well, and you're no doubt passionate about them, and I admire that." 
+And with that, the topic was dropped. 
+*page_break
+Some few days later, Jack came in to my father's shop. Apparently, he was scheduled to leave the next day, and needed to prepare for his departure. I was sad to see 
+him go, as I had grown quite fond of him in the days he had been here, and apparently the feeling was quite mutual. As we were exchaning farewells, he left me with 
+this bit of charity:
+*line_break
+"Well, ${FName}, if you should ever find yourself in London, do look up my father and I. I'm sure he'd be overjoyed to have someone like you working with him." I thanked 
+him for the offer, and he took his leave. Over the next few years, I kept up correspondence with him, but the distance between us, and his constant travelling, meant that 
+the letters could come at wildly disparate paces. 
+*line_break
+For the next 3 years or so, I continued to work in my father's shop, but that sense of wanderlust never quite left me. With my father now successful enough to hire his own 
+employees, I asked for his and mother's blessing to make my way to London, and he (quite reluctantly!) allowed it. In almost no time at all, I had packed 
+all my luggage, and had bought passage from Cork to London. At long last, would I see a world outside the province!
+*page_break The Old Smoke
+*goto_scene election

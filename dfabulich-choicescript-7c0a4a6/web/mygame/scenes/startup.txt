@@ -1,0 +1,48 @@
+*title The Sun Never Sets
+*author Micheal Zambos
+*scene_list
+	startup
+	proj_background
+	ending
+
+*create Liberal_Support 50
+*create Tory_Support 50
+*create Home_Rule_Support 50
+*create Indian false
+*create Catholic false
+*create Irish false
+*create Socialist false
+*create Republican false
+*create Monarchist false
+*create Digger false
+*create Noble false
+*create Edu_Rhetoric false
+*create Edu_Military false
+*create Edu_Classics false
+*create Edu_Science false
+*create Edu_Diplomacy false
+*create Education "None"
+*create Lang_French false
+*create Lang_Italian false
+*create Lang_Hindi false
+*create Lang_Irish false
+*create Lang_Russian false
+*create Lang_German false
+*create Lang_Greek false
+*create Lang_Latin false
+*create FName "John"
+*create LName "Smith"
+
+*image date.png center
+
+"It seems proper that, in endevoring to explain the reasons which have made me think it desirable
+that I should leave behind me such a memorial of so unevenful a life as mine, I ought to prefix it
+with some explanation as to the sort of man I was before I became the man I am, as I am old now, and
+my pride has been tempered and humbled by the unassaible power of time, and there is no understanding
+the man that I became without understanding the man that I once was. A true reflection on my life, one 
+that is honest to both myself and the public, would not ignore such an intregral part of my person. And 
+I should hope, dear reader, that what is written here will serve as some words of wisdom from a bygone era 
+to a future that, it seems, has left this old soul behind.
+
+*finish
+

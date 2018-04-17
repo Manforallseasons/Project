@@ -1,0 +1,34 @@
+*comment This is a stats screen!
+
+Name: ${FName} ${LName}
+
+Languages: English
+*if (Lang_French)
+	, French
+*if (Lang_Italian)
+	, Italian
+*if (Lang_Russian)
+	, Russian
+*if (Lang_Hindi)
+	, Hindi
+*if (Lang_Irish)
+	, Irish
+*if (Lang_German)
+	, German
+*if (Lang_Greek)
+	, Greek
+*if (Lang_Latin)
+	, Latin
+.
+*if (Liberal_Support > 100)
+	*set Liberal_Support 100
+*if (Tory_Support > 100)
+	*set Tory_Support 100
+*if (Home_Rule_Support > 100)
+	*set Tory_Support 100
+Education: ${Education}
+
+*stat_chart
+	percent Liberal_Support Liberal Support
+	percent Tory_Support Tory Support
+	percent Home_Rule_Support Home Rule Support

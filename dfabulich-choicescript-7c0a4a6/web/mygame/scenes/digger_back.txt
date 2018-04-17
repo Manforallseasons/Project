@@ -1,0 +1,309 @@
+*temp guardian false
+*temp times false
+*temp telegraph false
+*temp paper "none"
+"It is perhaps no surprise, then, that I was born in that most auspicious year of revolution, 1848.
+My uprbringing so close to London, but just on the outskirts, was quite far from typical. 
+My father, a tall, industrious man, was scarcely home, often making excursions to London 
+for the purpose of political agitation. My mother, conversely was often home, though
+perhaps she was not the typical housemaid so-often associated with what motherhood entails.
+Though perhaps she was not a well-known personality in London, I quite distinctly remember 
+my mother writing correspondence whenever the opprotunity was presented. Much of my earliest education 
+came from the reading of these letters, and I recall the adressees and senders of many of them: 
+Leigh Smith Bodichon and Lydia Becker among them. While many of those that my mother corresponded 
+with would go on to found some notable organizations (of varites Feminist, Socialist, and Temperate), 
+my mother, it seems, was more than content to make a living at home. Age, it seems, had tempered her, 
+though I can assure you, dear reader, that there had always been a streak of Radicalism in her that 
+seemed to manifest at perhaps the most bizzare moments.
+
+*page_break
+
+Of course, as is wont to happen upon the birth of a first child, much of my parents life was thrown into disarray. 
+What had once been the domain of two in an uncommon harmony, was now the unruly discord of three. 
+I was born, I am told, on a cool January morning in what would become known to history as the "Springtime of 
+the Peoples". My father, despite his protestations, eventually aquiesced to my mother's request for my 
+Baptism, and in the cool of January, I was christend 
+*choice
+	#Gregory
+		*set FName "Gregory"
+		*goto lastName
+	#Arthur
+		*set FName "Arthur"
+		*goto lastName
+	#Walter
+		*set FName "Peter"
+		*goto lastName
+	#Richard
+		*set FName "Richard"
+		*goto lastName
+	#Alfred
+		*set FName "Alfred"
+		*goto lastName
+	#John
+		*goto lastName
+	#Jacob
+		*set FName "Jacob"
+		*goto lastName
+	#Harry
+		*set FName "Harry"
+		*goto lastName
+		
+*label lastName
+And my surname, 
+*choice
+	#Ackerman
+		*set LName "Ackerman"
+		*goto education
+	#Ainsley
+		*set LName "Ainsley"
+		*goto education
+	#Greene
+		*set LName "Greene"
+		*goto education
+	#Grange
+		*set LName "Grange"
+		*goto education
+	#Hardwick
+		*set LName "Hardwick"
+		*goto education
+	#Smith
+		*goto education
+	#Frye
+		*set LName "Frye"
+		*goto education
+	#Underwood
+		*set LName "Underwood"
+		*goto education
+		
+*label education
+But for all my parent's radicalism and defiance of tradition, my boyhood was exceedingly typical. I lived, worked, 
+and played in the green hills of Surrey all through my youth, and, perhaps to no great surprise, I consider such 
+days the greatest of my early life. But, as a wiser man once said, all good things must come to an end, and mine 
+ended on those first days of attending university. 	
+*line_break
+That's not to say I was ungreatful, though. Quite the contrary. The opportunity to study at the University of Cambridge, 
+far and away one of the most prestigious universities in all of the Union, was not a minor thing. My education was, again, 
+quite standard for the period: I recieved education in the humanities, the classics, mathematics, theology, and, of course, the sciences. 
+Though, above all else, I excelled in the field of 
+*fake_choice
+	#Speech and Writing. I intended to become a journalist, after graduating. 
+		*set Edu_Rhetoric true
+		*set Education "Rhetorical"
+		I have intesely fond memories of my time in university, of course. During my time there, I became a practical expert in the
+		goings-on of the Union and the Continent. While my aspirations towards journalism were perhaps idealistic at best, it felt
+		like a practical and good idea at the time, much in the same way many young people hope to become actors or 'philsophers'. 
+	#History. In particular, the many exploits of Ceasar and Alexander. I hoped to emulate their military prowess someday.
+		*set Edu_Military true
+		*set Education "Historical"
+		Unfortunately (or perhaps not), I never did get the chance to serve at all, let alone with distinction, but 
+		my knowledge of military matters was not inconsiderable, and even my political rivals submitted to my 
+		purely-theoretical expertise.
+	#the Classics. I became an expert on the philisophical writings of Plato, Aristotole, and Aurelius. 
+		*set Edu_Classics true
+		*set Education "Classical"
+		*set Lang_Latin true
+		*set Lang_Greek true
+		My peers considered me something of a 'renniassance man', with my vast knowledge of a variety of topics. I was, 
+		as they say, a jack-of-all-trades, but a master of none.
+	#Mathematics and Chemistry. I had a sharp analytical mind, which made my decision to become a politician a deeply contreversial (and confusing!) one among my peers.
+		*set Edu_Science true
+		*set Education "Scientific"
+		*set Lang_Latin true
+		I had aspirations to become a doctor, perhaps one of the most prestigious and lucraive fields at the time, 
+		though circumstances kept me from becoming a practiontioner. That said, my expertise was invaluable whenever the policy discussion turned to medicine or public health.
+	#Culture and Language. Even at this young age, I had political ambitions, and I hoped to hone the skills that would make me a capable diplomat.
+		*set Edu_Diplomacy true
+		*set Education "Diplomatic"
+		*set Lang_French true
+		*set Lang_Russian true
+		*set Lang_Italian true
+		*set Lang_German true
+		I was never appointed ambassador, of course, as circumstances conspired in such a way to encourage me to persue a career in domestic politics 
+		instead. Though I never did lose that silver tongue I spent so many years to earn.
+		
+*page_break
+It was during these years, then, that I got my first taste of the political discourse of the age. It was a warm May morning in Cambridge, 
+and I had gone out with a good friend of mine, a certain Jack Wright. He was an agreeable man: the son of a London newsman, 
+and we got on splendidly, save for those moments where the topics of the day came up. There, we were of two minds on nearly everything. 
+*line_break
+Of particular strain to our relationship was the events of that last weeks of that May month. Sitting, as had become our custom for sunday afternoons, in 
+a crowded Cambridge pub, I had been thoroughly engrossed in the latest edition of my standard newpaper,
+*fake_choice
+	#The Guardian. Generally regarded as a more Left-Leaning paper, the Guardian's circulation was not particularily high on the Tory-Dominated campus.
+		*set liberal_support liberal_support + 10
+		*set home_rule_support home_rule_support + 5
+		*set tory_support tory_support - 5
+		*set paper "The Guardian"
+		*set guardian true
+		The Cambridge parliamentary constituency had elected Conservative MPs far more consistantly than their Whig counterparts, though one could hardly blame 
+		them for doing so in the years I attended: the whigs had only recently dissolved as a party, giving way to the more modern Liberal party. 
+	#The Daily Telegraph. A newer newspaper, one that voiced enthusaistic support for Disraeli and the Conservative government, even during the economic crisis.
+		*set liberal_support liberal_support - 5
+		*set tory_support tory_support + 10
+		*set telegraph true
+		*set paper "The Telegraph"
+		The Telegraph had become unpopular during the economic downturn, due to the Conservative government's mishandeling of public funds 
+		and the bungling of foreign affairs. But I kept reading, much to my own parent's chagrin. 
+	#The Times. Far-and-away the most prestigious newspaper in all of the Empire, if perhaps a bit over the place on the issues of the day. 
+		*set liberal_support liberal_support + 5
+		*set tory_support tory_support + 5
+		*set times true
+		*set paper "The Times"
+		The Times was the most popular newspaper on campus, by far, though that would be generally true nation-wide as well. Easily the oldest 
+		running broadsheet paper, no other paper has ever reached the prestige that the Times had. 
+*page_break
+Engrossed in my reading, I could scarce believe the report running on the front page of ${paper}! Apparently, just earlier that morning, 
+the 
+*if (Lang_French)
+	Republican Forces 
+	*goto Com_Exp
+*else
+	[i]Forces armées françaises[/i]
+	*goto Com_Exp
+*label Com_Exp
+had broken past a weak point in the Paris barricades and begun the occupation of the city. 
+*line_break
+I hope the reader will forgive my brief digression here. The events that occured in Paris in these short few weeks were, 
+in truth, only a minor prelude in the broader discussions of the day in the Union. But the events in the Commune were deeply 
+influential in the greater formation of my own political style, and the manner of politician that I would later become. 
+*page_break The Paris Commune
+*image commune.jpg center A barricade in the Paris Commune, March 18, 1871. Source: Hachette Biblio College, Les Miserables. 
+Immediately following the defeat of Emperor Napoleon III in the September of the previous year, the final knell of the Second Empire 
+was rung in the ears of all of Europe. France, in particular, was most shaken by this political upset for obvious reasons. With the 
+disolution of the Second Empire, the Third French Republic was founded in its stead, continuing its war with the nascent German Empire. 
+*line_break
+For nearly four months, Prussian troops laid seige to the City of Lights, and since the forces of the Republic were too far away to 
+defend the city, the defense of Paris came mostly from the National Guard instead. The same National Guard that had, in previous years 
+become increasingly radical: famously overthrowing the last Bourbon monarch in 1848, effectively signaling the end of Monarchism in France.
+*line_break
+In February of the next year, Adolphe Thiers, the new Chief Executive of the Third Republic, signed the Treaty of Frankfurt, disarming the 
+regular Army but not the National Guard. With the prolonged seige of Paris, and the previous uprisings, strikes, and revolts in Paris against 
+the Emperor, and then the national government, the city of Paris had become a powder keg waiting to burst. In mid-March, National Guard forces 
+refused to reliquish some now-obselete bronze cannons that had been payed for by the citizens of Paris by subscription. Compromise was attempted, 
+but ultimately, talks broke down, and the national government fled the city, leaving it in the hands of the National Guard. The National Guard 
+declared that it, above the elected Republican mayors, was the legitimate steward of Paris. The mayor was ousted, and the National Guard seized 
+city hall.
+*line_break
+New elections were held on March 26th, with both the Central Committee and the Internationale declaring its support for certain candidates, 
+almost all of them quite far-left. Upper class citizens generally refrained from voting, leaving most of the votes to the working-class. 
+Of the 92 council seats granted, 25, mostly Republicans, elected not to take their seats in protest, meaning that in practice, only 60 
+council seats were actually in use. 
+*line_break
+Despite these seeming setbacks, the Commune leaders declared victory, and many in the working class celebrated what would become the first 
+Socialist state. While such jubilee might seem premature now, with the benefit of posterity, it was hard not to see the Commune as some herald 
+of leftist success. Though, of course, then came the May invasion.
+*page_break The Fall of the Commune
+The Commune lasted hardly two months before falling to the Republican Government Forces. On May 21st, the Commune fell, and the city was 
+once again part of the French Republic. While the events of the week would later go on to be known as 'Bloody Week', at the beginning, in 
+those innocent, early days of the week, one could be forgiven for thinking that the Republican forces would not be so brutal as they turned 
+out to be.
+*line_break
+As for myself,
+*choice
+	#I was impossibly distraut at the fall of Paris. The Commune had been the first global hope for a Socialist state, only to fall at the hands of the Republic!
+		*set liberal_support liberal_support + 5
+		*set tory_support tory_support - 10
+		*set socialist true
+		*if (telegraph)
+			Of course, when I mentioned my thoughts to Jack, he looked at the newspaper with a degree of incredulity. "Since when did the Telegraph become the premiere 
+			newspaper for Reds?" He asked with charateristic aplomb. 
+			*goto debate
+		Of course, when I mentioned these feelings to Jack, he merely gave a small chuckle. "Of course you'd support the Parisians. Radicalism runs in the family, it seems." He 
+		said with great sarcasm.
+		*goto debate
+	#I was deeply pleased with the outcome. The French Republic was the government necessary to prevent a proletarian dictatorship.
+		*set liberal_support liberal_support + 10
+		*set republican true
+		*if (times)
+			When I mentioned my thoughts on the matter to Jack, he shook his head with a deep boredom. "Do you toe the party line on every issue? Or just the ones relating 
+			to Paris?" He asked, with no small hint of sarcasm. 
+			*goto debate
+		When I mentioned my thoughts to Jack, he merely raised his eyebrow. "I never took you for such a milquetoast, ${FName}. Where's the Firebrand Radical I was 
+		promised?" He asked, his voice deep with sarcasm. 
+		*goto debate
+	#I was mostly ambivalent. This whole thing was the fault of the Revolutionaries who had deopsed the monarchy. The true solution was to bring back the Ancien Regime. 
+		*set liberal_support liberal_support - 10
+		*set tory_support tory_support + 20
+		*set monarchist true
+		*if (guardian)
+			When I mentioned these thoughts to Jack, however, he seemed completely taken aback. He tried to peel down the top of the paper, trying to get a 
+			better look at the title. "When did the Guardian begin to support such reactionary drivel? And for that matter, when did you?"
+			*goto debate
+		When I mentioned these beliefs to Jack, though, he seemed genuinely surprised. "I beg your pardon? Did I just hear ${FName} support 
+		the French Monarchy? Excuse me, I believe I need to make my way to Lambeth to check into the asylum." he said, sarcastically. 
+		*goto debate
+
+*label debate
+*line_break
+"Listen," began Jack. "You can't honestly believe that, can you? 
+*if (socialist) 
+	That the Commune was some noble experiemnt? That some congregation of lower-class louts and communists Rising up in opposition to the Republic was 
+	somehow going to become the steward of the future?"
+	*line_break
+	"And So what if I do think that?" I asked, impetuously. "As far back the 40s, Voltaire himself spoke of the divisions in society: the political one, 
+	that concerns the rights of men, and the social one, that concerns their material conditions." I could feel my voice raise as I started my 
+	arugment, and I could feel the eyes of some of the nearby tables on me, but I was rolling, and I felt a compulsive need to correct Jack. "The Republic 
+	is, to its credit, propery concerned with the Political Question: The right to vote, and to sufferage, and to the protection of one's liberties, are 
+	all ensured in the Republic. But as the second Republic proved, those same men are wholly unconcerned with the Social Question: They abhor the socialist 
+	movements with all aplomb, and work tirelessly to ensure that no law that would improve the lives of the French working-class should ever find its way 
+	to the desk of the president. What, then, are the Parisians meant to do? Their labor held up the Empire, and then the Repulic, during the war, and 
+	the government sees fit to repay them with hostility? If no state exists to ensure their rights as workers, then it is necessary that they create it themselves." 
+	*goto end_debate
+*elseif (republican)
+	That the Republic had noble intentions? I'm half-certain that they'll slaughter the Parisians before the week is through. You know how these Republican types are. 
+	Are the memories of the first Revolution so far removed for you?"
+	*line_break
+	"Do you get all of your opinions from Burke, or just the worst of them?" I asked, sarcastically. "Had it not been for the Republic, there might as well not be a 
+	France to go back to! These Parisians radicals posed a fundamental threat to the French Republic! The same republic that ensured their sufferage, and brought 
+	about the end of the Bourbons and the Aristocracy. Mere rabble-rouses, ready to overthrow the established order in the name of what? Communism? Socialism? 
+	The social order is best served from the transition to a protectionist, fedual economy to a lassiez-faire one, as England has." I said, gesturing vaguely.
+	These luddites are content to remain in the past, while the republic promises the future. If the Army is needed to come in and show that to them, so be it."
+	*goto end_debate
+*elseif (monarchist)
+	That the reinstatement of the Bourbons or the Orleanists would be the ideal solution to Frances woes? The French have deposed the Monarchy so many times I've lost count!"
+	*line_break
+	"That may be true," I conceded, "but consider what those monarchies have been replaced with: a reign of terror, a short-lived republic, an Empire lead by 
+	a madman, another ephemeral republic, and an Empire once again! France has not known stability for a hundred years, when they knew stablity for 1000 under the 
+	[i]Ancien Regime[/i]. What other conclusion is there for a reasonable person to draw? This 'third republic will not last a decade, I swear it. The only 
+	proper course of action for the French would be to re-instate the Bourbons into their rightful place as Monarchs of France, if ever France wants to see 
+	any long term stability."
+	*goto end_debate
+*else 
+	Hey! You shouldn't see this text. If you have, there's either an error, or you're in debug mode.
+	goto end_debate
+ 
+*label end_debate
+*line_break
+I ended my tirade with a uncharacteristic definitiveness. The area around our table outside the cafe had gone briefly silent, but the voices quickly picked up again 
+after a brief pause. Jack had a bewildered, if impressed, look on his face. After some time, he leaned forwards, and said, "Well, I can't say I agree with you, 
+${FName}, but I'll say this much: you argue your points well. If you were to run for the Commons, I think I'd, begrudginly, vote for you," he finished, before smiling 
+and clapping me on the back. Our conversation turned to more personal topics, and the conversation was all but forgotten, or so I had thought.
+*page_break
+I graduated in the summer some two years later. My parent's pride, I was more than happy to revel in those days following my academic success, though certain realities 
+soon made themselves manifest: I was no longer a student, and I had no place of employment, a problem all-to-common in those days, even for the educated classes.
+The financial crisis had taken much out of the pockets of everyone.
+I was apprehensive about my future prospects, until, in a fit of good fortune, my old friend Jack Wright approached me to make an offer.
+*line_break
+"${FName}," he began, "I know that you've been struggling to find employment. Most are in this economy. I know that we differ on nearly every issue, but 
+there's not a man out there I'd trust to espouse what he believes more passionately and articulately. I'm going back to London to practice medicine, and I 
+know my father'd be happy to hire you to write for his paper, if you're willing to work for him."
+I was deeply surprised, and quite flattered at his offer. 
+*if (Edu_Rhetoric)
+	I had hoped to become a Journalist ever since attending Cambridge, and here was that opprotunity showing itself right to me. 
+	*goto travel
+*else
+	I was also somewhat surprised, of course. I hadn't planned on becoming a journalist, but employment was hard enough to find, and 
+	I was only a few months from being totally destitute. 
+	*goto travel
+*label travel
+I accepted his offer, as graciously as I could. Jack was, and remains, a close friend of mine, and if it hadn't been for this mere offer, there is a very good chance 
+that I never would've become an MP in the first place. I am forever greatful for his charity, and that of his father. 
+*line_break
+I wasted no time. I packed all of my belongings (which, I realized at the time, was not very much), and I bought two tickets from Cambridge to King's Cross for Jack 
+and myself. The train left on the following Sunday, and I felt an uncommon sense of excitement. To be working! As a Journalist in London, no less! I never had 
+such ambitions even in my best university days. We boarded the train, and I felt the carriage lurch forward as it departed for The Great Wen. This would be 
+the first step on rise up the ladder of British politics, and I had been lucky enough so far: only time will tell how far I climbed.
+*page_break The Old Smoke
+*goto_scene election
+*finish
+		

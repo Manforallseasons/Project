@@ -1,0 +1,237 @@
+*image hackney.jpg center
+"Father, If I may introduce Mr. ${FName} ${LName}?" The elderly man stretched out his hand, and I took it with care. 
+"${FName}, this is my father, Mr. John Wright Sr."
+*line_break
+I had arrived in London in the cool winter of 1870. The home of the senior Wright was quite extravagant, though such 
+was to be expected from a publisher of a London-popular paper. His home, loctated right in the center of the London 
+Borough of Hackney, was far more spacious than many other such residences either within or without the city proper. 
+*line_break
+The elderly Jack Wright took a long look at me, as if sizing me up, before remarking that "My son surely has an eye 
+for strange cases!" He said, in a exaggerated facsimilie of the Queens English, before bellowing out a hearty chortle. 
+"Well well, my boy, it's a pleasure to finally meet you! My son told me some bit about you! I'm that coming all the 
+way to London was no easy decision for you, so I'll trust that you'll make good use of your time here, working." 
+*line_break
+We spent some time, familiarizing ourselves with one another, and while I'm afraid that I've forgotten most of the 
+contents of that conversation, I was hired to work for Mr. Wright's newspaper. Work would start the following morning, and I would 
+be paid a small allowence of 5 pounds a week: quite a generous stipend for a green journalist.
+*page_break
+"The Hackney Gazette", the publisher owned by Mr. Wright, was a small-but-enterprising newspaper in, of course, the Hackney Borough 
+of London, though publication had spread a small bit into the surrounding districts. I was quite surprised at the small number of workers 
+in the press. A few men to work the presses, and a small number of journalists to write the articles. There were no dedicated correspondants, 
+domestic or otherwise, and much of the paper seemed to focus on far more local issues: the Times was the better option for those seeking 
+an in-depth explanation of the issues of the day. 
+*line_break
+Of the men that worked there, there was little to be said about most. Very few stayed on for very long, most finding work at other, more 
+prestigious papers, or else finding more promising work elsewhere. Indeed, of those journalists who worked there, only one stayed longer than I would:
+A woman by the name of Emma Clark, and her only because very few other papers would be willing to hire a woman, let alone a woman who had remained 
+unmarried for so long. 
+*line_break
+Indeed, it seemed the Mr. Wright was that particular brand of progressive that even many of the Liberal parties might feel threatened by. He made 
+no secret of his support for women's sufferage, or his distaste for the trappings of imperialism. Despite this, however, he was more than willing 
+to let more reactionary articles slide if he felt that it would sell papers better. He Mr. Wright, profit came before ideals.
+*page_break
+To my surprise, much of my work was quite tame compared to what I had expected. It seems that Jack had oversold the nature of the work I would be 
+doing. Most articles were quite local: only rarely did one write about the wider topics of Great Britain, and more often, we wrote on the topics of the 
+day. I became personally familiar with Mr. Holmes and Mr. Reed, the MPs for Hackney, as well as a small host of other local figures. I wrote more about the 
+sale at Mr. Franklin's market than I did on the goings-on of the country.
+*line_break
+This is not to say that there were never any political articles. Quite the contrary: there were plenty, and I had the honor to write many of these articles: 
+the more years I worked at the paper, the more I wrote. For the first five years or so, I mainly wrote on the topics that concerned local politics, until 
+that most wonderful year of 1876, when Mr. Wright himself asked me to write an editorial about the Royal Titles Act.
+*line_break
+I suspect that my younger readers will not remember this particular act of parliament, as it was a very minor one, though it was still considered contraversial by 
+many at the time. I promise not to digress about the specifics of the law, as there's very little to say about it: Simply put, the act merely added the title of 
+'Empress of India' to her menagerie of other titles. While many supported the addition, many others felt uneasy at the increase in prestige granted to the Queen, 
+especially among those who did not support what was seen as the growth in aristocratic and royal power under the Disraeli government. 
+*line_break
+But, I suspect that Mr. Wright's choice of me for the bill was not brought so much from my opinion on the matter, but rather that I, above many of the others on the 
+paper's staff, could write something just contraversial enough to incrase sales.
+*line_break
+*temp lib false
+Agreeing to write the paper, I went to work immediately.
+*fake_choice
+	#I wrote in favor of the legislation.
+		*set liberal_support liberal_support - 5
+		*set tory_support tory_support + 10
+		*set home_rule_support home_rule_support - 10
+		*set lib true
+	#I wrote against the legislation.
+		*set tory_support tory_support - 10
+		*set liberal_support liberal_support + 10
+		*set home_rule_support home_rule_support + 10
+		
+I set time to write out my thoughts, and the next day, this page ran in the paper:
+
+*image gazette.png center
+*line_break
+*line_break
+Novemeber 18th, 1876
+*line_break
+*line_break
+*line_break
+Editorial;, Mr. ${FName} ${LName}
+*line_break
+*line_break
+*line_break
+*if (lib)
+	*goto for
+*else
+	*goto against
+
+*label for
+It should, perhaps, not be any surprise that those who, under the liberal government, have come out against the passing of this 'Royal Titles Act'. The government under 
+Disraeli has, it must be admitted, floundered somewhat. It would behoove us to be honest in admitting the failures of the current governemnt. But despite these small 
+failings, it is the opinion of this paper that it should not be reflected by this objection to legislation that many in the Liberal party are so intent on persuing.
+*line_break
+Had it not been for her Highness, it can be said that much of India would yet be languishing in ignorance. Under Her Majesty, the rebellion of 1857 was crushed, and India 
+saw the return of peace and stability. Moreover, the title of Emperor has been the tradiaitonal title of those who controlled all of Indian land, and so would it not 
+demean those living in India to live in so large a state as Great Britain, which now extends as far as the furthest reaches of Canada, to the outbacks of Australia, to live 
+under anything but an Empire? 
+*line_break
+Indeed, it is our duty as loyal subjects of her majesty, to support this small change. For where would we be without our good Empress?
+*goto after
+
+*label against
+This piece of legislaiion offered by the Conservative government, now called the 'Royal Titles Act', is an affront to every good citizen of the nation. The territorial gains of 
+this nation in these past few years, and following the rebellion in 1857, have been signifigant. Indeed, it would not be remiss to say that we truly do live in an Empire, if all 
+an Empire was, were a large tract of land.
+*line_break
+But an empire is more than that. The first Empire was that of Rome. Does the Queen truly consider herself the equal of Ceasar, when under her reign, thousands starved in Ireland? 
+Does the Disraeli think the Queen is like Charlemagne or Barbarossa, when in India, there is disunity, and the British army is called to quell any rebellion, rather than consider the 
+needs of those living there? Does the goverment truly, unilaterally, consider itself the equal of the Emperor of China in moral fortitude? When it spent no small part of the 
+taxpayer dole to fund a war, shoving the opium down their throats?
+*line_break
+Should Her Majesty fancy herself an Empress, then the only true comparison is that of the Emperor of France, Napoleon. For only in him is the Queen's character reflected. 
+*goto after
+*label after
+*page_break
+The paper was a sensation in the borough that morning. For nearly a week, my editorial became a topic of conversation. Mr. Wright was thoroughly pleased, saying that 
+I had done exactly as he hoped.
+*line_break
+Over the next few years, I was given more and more political articles: many of them editorials, but even still, I worked just as much on the local politics of the day 
+as I did on the national politics. Little did I know that it was this same proclivity towards politics that would lead me to the halls of parliament themselves.
+*page_break
+It was on a cold March morning in 1880 that Mr. Wright invited me to his home. It was warm, large, and comfortable, as usual. Mr. Wright lead me into his parlor, 
+and we exchanged the typical plesantries about the weather, before the topic of conversation changed to why Mr. Wright had called me here in the first place.
+*line_break
+"$Mr. ${LName}, are you familiar with Mr. John Holmes?"
+*line_break
+I admitted that I was. He had been one of the Liberal politicians regularily elected to Parliament in Hackney. 
+*line_break
+"Well, I'm afraid there is some bad news. Perhaps you've heard, but the other day, Mr. Holmes was injured in an accident on the tube," he said, quite calmly. 
+I began to express me concerns about him, having become quite familiar over these few years as a journalist, but Mr. Wright waved me off. "I assure you, he's quite 
+alright, but he is, at the moment, indesposed," he said, before continuing. "As I'm sure you've pieced together, that means he cannot run in the upcoming election. With 
+the vote only a month away, you can see how this would present a problem."
+*line_break
+"Are you trying to inform me that you intend to run, Mr. Wright?"
+*line_break
+"Quite the opposite, in fact!" He said with sudden aplomb. "I wanted to ask [i]you[/i] to run instead!"
+*page_break
+I nearly dropped my tea from the shock. 
+*line_break
+"Me? Run? 
+*if (liberal_support < 30)
+	As a Liberal?
+Mr. Wright, surely you can't be serious." Once again, he brushed me off.
+*line_break
+"Yes, I'm quite serious. The election is in 2 weeks. There are few people in Hackney with the presence that you've gained from your editorial writings. 
+What's more, few people could muster the resources to run an election in so short a time, but you already have the full support of a newspaper! 
+It is highly irregular, I admit, but it could not possible be worse than nobody."
+*line_break
+I had to take a few moments to consider. It was no small thing to run for parliament, that was certain. But at most, it would be for some five years or so, 
+and I had no doubt that being a former MP would be a large boost to my own personal prestige, not to mention the newspaper's, which I suspected was part of the 
+reason I had been asked to run. 
+*line_break
+After long consideration, I gave my answer:
+*choice
+	#"Very well, Mr. Wright. I'll run."
+		*goto running
+	#"I'm sorry, Mr. Wright. I cannot."
+		Wright nodded his head in dissapointment. "I suspected you might feel as much. Very well, ${FName}, I'm sorry to bother you." 
+		*line_break
+		I took my leave of his house, and I considered the offer once more. Without this opprotunity, it was unlikely that I would ever amount to much in British 
+		society. Stopping for a brief moment, I considered one last time:
+*label ask
+*choice
+	#No. I would not run, and that was final.
+		I ultimately decided not to run, and for the rest of my life, I woke up, went to work, and went home, 
+		never once wondering what other things life had to offer. Then, one day, I died, unceremoniously, forgotten by time.
+		*line_break
+		*line_break
+		(In case you haven't guessed, this ending is non-canon. You somehow managed to reach one of the few Fail-States in the game. 
+		I'd be impressed if it were actually difficult to just say 'Nah, no thanks' and just stop playing).
+		*finish
+	#I changed my mind, running back inside to Mr. Wight's house. "Mr. Wright, forgive me for intruding, but I've changed my mind. I will run for parliament."
+		*goto running
+*label running
+Mr. Wright's eyes lit up with excitement. "Excellent! Wonderful! Very well, Mr. ${LName}! I shall see you all this upcoming month! We've a campaign to plan!
+*page_break The Campaign
+The next few weeks were a flurry of work. Papers went out from the press, endorsing me as a candidate, and a number of posters went out with my face plastered on them 
+*if (indian)
+	, though I noted with some chagrin that they had lightened my features somewhat, as though some slight coloring could erase the name ${FName} ${LName}
+.
+*line_break
+Given the natural constraints of trying to prepare a month-long campaign in less than a little more than a week, I was quite surprised to see just how much 
+Mr. Wright, Emma, and the rest of the Hackney Gazette staff pulled together in support of me. I was both flattered and, obviously, terrified at the idea of 
+running for parliament. 
+*line_break
+Of course, the largest constraint was the amount of speeches I could make. Henry Fawcett, the Liberal man running for the other seat in Hackney, already had 
+quite a secure seat, and due to my own association with him, much of the work had already been done, but I did want to avoid the possible prospect 
+of people not knowing the correct name to put on the ballot. 
+*line_break
+My opponent was a man by the name of George Trout Bartley. A man I never met, never saw, and never knew anything about. I met him only once, and then only during 
+the traditional reading of the ballots after the election, where all candidates were required to show. The seat was nominally safe, or at least it had 
+been when Holmes had been running, but Bartley was unlikely to win unless I had somehow managed to make some grevious mistake. 
+*line_break
+In any event, I was able to give one great speech in the Hackney commons, in a final, half-cocked attempt to make myself seem like a more secure, legitimate 
+candidate. With the small crowd gathered in front of me, I gave an impassioned, invigorating speech about 
+*fake_choice
+	#Working conditions for the poor in London and the nation. The Age of Industry had brought working conditions to a low, and it was the responsibility of the government to rectify that.
+		*set liberal_support liberal_support + 10
+		*set tory_support tory_support - 5
+	#The right of women to own their own property. Too many women had fallen into poverty because the law would not guarentee them their right to property!
+		*set liberal_support liberal_support + 5
+	#The rights of land occupiers, and the rights they had to hunt the hares and rabbits killing their crops.
+		*set tory_support tory_support + 5
+	#Borough redistricting in Ireland, and the rights of the protestants who lived in Ulster.
+		*set tory_support tory_support + 10
+		*set liberal_support liberal_support - 5
+My speech was well recieved, if a bit lackluster. I was not quite able to bring back the passion that had defined my 
+*if (lib)
+	praise
+*if not (lib)
+	indictment 
+of the Royal Titles Act, it seemed.
+*line_break
+All too quickly, the election period passed, and in a matter of time, the polls were closed, and all that was left was to wait for the election to be called.
+*page_break The Moment of Truth
+On a cool April morning, the three of us men who had run for parliament in the Hackney borough stood on a rickety platform in the public square. Dressed in our finery, 
+we waited patienty as another man, an election regulator, pulled out the ballot counts. 
+*line_break
+He gave a short speech that I don't remember, before saying "Well, ladies and gentlemen, I shan't keep you waiting much longer. The vote count for the Borough of 
+Hackney for the House of commons, is as such.
+*line_break
+"Mr. Henry Fawcett. 18,366 votes." Some people clapped as he said this, and Henry nodded his head somewhat. He was a quiet man, but I could tell that he was pleased with the result.
+*line_break
+"Mr. George Bartley. 10,332 votes." Some more clapping, but much, much quiter than before.
+*line_break
+"And, finally. Mr. ${FName} ${LName}.
+*temp total 0
+*set total + liberal_support
+*set total + tory_support
+*if (total > 50)
+	16,997 votes." An outstanding result. The applause came again, neither louder nor quieter than before, but I could quite distinctly make out the sound of 
+	Emma and Mr. Wright cheering in the distance.
+	*goto grats
+*else
+	10,783 votes. A very, [i]very[/i] close result. I heard some faint applause, though I could tell that Emma and Mr. Wright were quite pleased, if not somewhat relieved at 
+	how close we had come.
+*label grats
+*line_break
+"Well, a very fine congratulations to Mr. Fawcett and Mr. ${LName}. The people have spoken, and I hope to see you two fairly represent the people of this borough."
+*line_break 
+And with that, the election was over. The crowd began to disperse, and I made my way over the Emma and Mr. Wright. We shared a few moments of jollity at our success, 
+and at the result of all our hard work. Come the last weeks of April, I would become a sitting member of parliament! An astounding thing, to be sure. All that was left now was to 
+wait.
+*page_break The House of Commons
+*goto_scene parliament
