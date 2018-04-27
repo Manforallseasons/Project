@@ -26,7 +26,7 @@ Languages: English
 	*set Tory_Support 100
 *if (Home_Rule_Support > 100)
 	*set Tory_Support 100
-*linebreak
+*line_break
 Education: ${Education}
 
 *stat_chart
